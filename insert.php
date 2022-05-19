@@ -7,7 +7,7 @@ if(isset($_GET["nom"]) && isset($_GET["prenom"]) && isset($_GET["tel"]) && isset
 
 {
 
-
+// test
 $nom = $_GET ["nom"];
 $prenom = $_GET ["prenom"];
 $tel = $_GET ["tel"];
