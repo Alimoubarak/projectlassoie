@@ -89,14 +89,14 @@
             </ul>
         </nav>
     </header>
-    <form>
+    <form action="insert.php" method="get">
         <fieldset>
             <legend>Incription</legend>
-            <label>Prénom</label><input type="text" placeholder="entrez votre prénom ici" /> <br>
-            <label>Nom</label><input type="text" placeholder="entrez votre nom de famille ici" /> <br>
-            <label>Téléphone</label><input type="number" placeholder="entrez votre numero de Téléphone ici" /> <br>
-            <label>Email</label><input type="email" placeholder="entrez votre adresse mail ici" /> <br>
-            <label>Sexe</label><input type="radio" name="sexe" value="Homme" />Homme<input type="radio" name="sexe" value="Femme" />Femme <br>
+            <label>Prenom</label><input type="text" name="nom" placeholder="entrez votre nom de famille ici" /> <br>
+            <label>Nom</label><input type="text" name="prenom" placeholder="entrez votre prénom ici" /> <br>
+            <label>Tel</label><input type="number" name="tel" placeholder="entrez votre numero de Téléphone ici" /> <br>
+            <label>Email</label><input type="email" name="email" placeholder="entrez votre adresse mail ici" /> <br>
+            <label>Sexe</label><input type="radio" name="gender" value="Homme" />Homme<input type="radio" name="gender" value="Femme" />Femme <br>
             <input type="submit" value="Valider" />
         </fieldset>
     </form>
